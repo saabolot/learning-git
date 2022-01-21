@@ -1,6 +1,7 @@
 liczby = list(range(0,101))  
 liczby_podzielne5=[]
 liczby3=[]
+
 for i in liczby:
     if i % 5 == 0:
         liczby_podzielne5.append(i)
